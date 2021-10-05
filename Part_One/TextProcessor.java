@@ -17,6 +17,12 @@ package Part_One;
  * 5. Words ending in "ing" except Godalming and Helsing -> "(?!(\bGodalming\b|\bHelsing\b))\b(\w+ing)\b"
  */
 
+/** 
+ * To run this program in the command line -> java TextProcessor.java Dracula.txt <RegexPattern>
+ * Where RegexPattern is one of the patterns listed above
+ */ 
+
+
 import java.util.regex.*;
 import java.io.IOException;
 import java.nio.file.Files;
