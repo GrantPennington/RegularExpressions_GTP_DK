@@ -11,7 +11,7 @@ package Part_One;
 // REGEX PATTERNS
 /* 
  * 1. Articles 'a', 'an', 'the' -> "\ba\b|\ban\b|\bthe\b"
- * 2. The phrase ‘Mina Harker’ or ‘Mrs. Harker’ -> "\bMina\b\s\bHarker\b" still need to find Mrs.
+ * 2. The phrase ‘Mina Harker’ or ‘Mrs. Harker’ -> "\bMina\b\s\bHarker\b"
  * 3. Phrases containing the word "Transylvania" -> "\bTransylvania\b"
  * 4. infinitive phrases -> "\bto\b\s[a-zA-Z]*\b"
  * 5. Words ending in "ing" except Godalming and Helsing -> "(?!(\bGodalming\b|\bHelsing\b))\b(\w+ing)\b"
