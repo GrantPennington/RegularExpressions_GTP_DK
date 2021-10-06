@@ -34,9 +34,6 @@ public class ExtractText {
                 writer.close();
                 System.out.println("Text file created");
             }
-
-        } catch (InvalidPasswordException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
