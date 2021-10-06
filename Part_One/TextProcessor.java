@@ -1,6 +1,6 @@
 package Part_One;
 /**
- * Description
+ * This class uses the text of Dracula and regex patterns to find patterns.
  * @author Grant Pennington, Dalton Kilner
  * @version 1.0
  * Compiler Project 3
