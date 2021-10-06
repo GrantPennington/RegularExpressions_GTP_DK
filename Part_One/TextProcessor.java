@@ -53,7 +53,7 @@ public class TextProcessor {
             lines.forEach((String line) -> { // using forEach() to read each line from the text file
                 processLine(regex, line); // passing the regex pattern and line to the processLine() method
             });
-
+            
             System.out.println("Number of occurences: "+count);
 
         } catch (Exception e){
