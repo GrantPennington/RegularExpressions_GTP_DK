@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/home/cs322/Downloads/pdfbox-app-2.0.24.jar"
+    ]
+}
