@@ -1,4 +1,4 @@
-package Part_Three;
+package Three;
 
 /**
 * Description of this class.
