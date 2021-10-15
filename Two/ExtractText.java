@@ -1,4 +1,4 @@
-package Part_Two;
+package Two;
 /**
  * Extract Text from the Bellarmine Schedule PDF using PDFBox library
  * @author Grant Pennington, Dalton Kilner
