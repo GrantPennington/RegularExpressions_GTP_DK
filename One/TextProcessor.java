@@ -1,4 +1,4 @@
-package Part_One;
+package One;
 /**
  * This class uses the text of Dracula and regex patterns to find patterns.
  * @author Grant Pennington, Dalton Kilner
