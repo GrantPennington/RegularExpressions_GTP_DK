@@ -16,9 +16,9 @@ import org.apache.pdfbox.text.PDFTextStripper;
 
 public class ExtractText {
     public static void main(String[] args){
-        try (PDDocument document = PDDocument.load(new File("/home/cs322/Documents/RegularExpressions/Part_Two/Bellarmine_Schedule.pdf"))) { // input the PDF through the command line
+        try (PDDocument document = PDDocument.load(new File(args[0]))) { // input the PDF in command line
             document.getClass();
-            File plainText = new File("/home/cs322/Documents/RegularExpressions/Part_Two/Bellarmine_Schedule.txt");
+            File plainText = new File("/RegularExpressions_GTP_DK/Bellarmine_Schedule.txt");
             FileWriter writer = new FileWriter(plainText); // new FileWriter object being passed the plainText File object
             if (!document.isEncrypted()) {
                 PDFTextStripper tStripper = new PDFTextStripper();
