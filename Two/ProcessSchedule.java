@@ -1,4 +1,4 @@
-package Part_Two;
+package Two;
 /**
  * This class will use regex patterns to find certain data elements from the extracted text and write them to files
  * @author Grant Pennington, Dalton Kilner
